@@ -15,8 +15,8 @@ TensorFlow Lite plugin for Flutter apps.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'TensorFlowLiteC'
-  s.dependency 'TensorFlowLiteC/Metal'
+  s.dependency 'TensorFlowLiteSwift'
+  s.dependency 'TensorFlowLiteSwift/Metal'
   s.platform = :ios, '8.0'
   
   #s.ios.vendored_frameworks = 'TensorFlowLiteC.framework', 'TensorFlowLiteCMetal.framework'
