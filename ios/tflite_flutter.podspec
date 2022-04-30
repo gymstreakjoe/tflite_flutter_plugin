@@ -17,7 +17,7 @@ TensorFlow Lite plugin for Flutter apps.
   s.dependency 'Flutter'
   s.dependency 'TensorFlowLiteC'
   s.dependency 'TensorFlowLiteC/Metal'
-  s.dependency 'TensorFlowLiteSelectTfOps' , '~> 0.0.1-nightly'
+  s.dependency 'TensorFlowLiteSelectTfOps' , '~> 2.6.0'
   s.platform = :ios, '8.0'
   
   #s.ios.vendored_frameworks = 'TensorFlowLiteC.framework', 'TensorFlowLiteCMetal.framework'
